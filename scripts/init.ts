@@ -6,7 +6,6 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const API_KEY = process.env.STACKUP_API_KEY;
-const privateKey = process.env.PRIVATE_KEY;
 
 const INIT_CONFIG = {
   rpcUrl: `https://api.stackup.sh/v1/node/${API_KEY}`,
